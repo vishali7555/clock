@@ -97,7 +97,7 @@ function settiming()
                  else
                  {
                      taskpe.innerText="Set Alarm ";
-                     
+                     img.style.backgroundImage="url('./set_alarm.jpg')";
                  }
     
     }                
