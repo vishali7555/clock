@@ -1,0 +1,384 @@
+body
+{
+    background-color: azure;
+}
+.main
+{
+    margin-top: -32px ;
+    margin-left: 100px;
+    margin-right: 100px;
+    margin-bottom: -50px;
+    width: 1300px;
+    height: 722px;
+    background-color: rgba(78, 4, 148, 0.993);
+}
+
+.top
+{
+    margin-top: 30px ;
+    display: flex;
+    flex-direction: row;
+}
+
+.clock
+{
+    margin-top: 70px ;
+    margin-left: 120px;
+    width: 204px;
+    height: 77px;
+    background: transparent url('clock_logo.png') 0% 0% no-repeat padding-box;
+    opacity: 1;
+    display: inline-block;
+}
+
+.time
+{
+    margin-top: 40px ;
+    margin-left: 310px;
+    width: 500px;
+    height: 130px;
+    background: #FFFFFF 0% 0% no-repeat padding-box;
+    border: 1px solid #EDEDED;
+    border-radius: 10px;
+    opacity: 1;
+    display:inline-block;
+}
+
+.heading_time
+{
+    display: inline-block;
+    text-align: left;
+    font: normal normal 600 20px/32px Manrope;
+    font-family: Arial, Helvetica, sans-serif;
+    letter-spacing: 0px;
+    color: #3D087B;
+    text-transform: uppercase;
+    z-index: 1;
+    margin-left: 30px;
+    margin-top: 50px;
+}
+
+.hours
+{
+    display: flex;
+    padding: 0;
+    margin-left: 90px;
+    margin-top: 5px;
+    list-style: none;
+    -ms-box-orient: horizontal;
+    display: -webkit-box;
+    display: -moz-box;
+    display: -ms-flexbox;
+    display: -moz-flex;
+    display: -webkit-flex;
+}
+
+.nowrap  { 
+    -webkit-flex-wrap: nowrap;
+    flex-wrap: nowrap;
+  }
+
+  .timess {
+    width: 80px;
+    height: 80px;
+    line-height: 42px;
+    color: white;
+    font-weight: bold;
+    font-size: 2em;
+    text-align: center;
+    opacity: 1;
+    margin-top: -80px;
+    margin-left: 13px;
+    gap: 10px;
+    display: inline-block;
+  }
+
+  .timesss1
+  {
+      
+      background-color: rgb(255, 143, 218);
+  }
+
+  .hourline
+  {
+    color: white;
+    font-size: 20px;
+    margin-top:0px;
+    z-index: 10;
+    margin-left: 2px;
+  }
+
+  .timesss2
+  {
+    background-color: rgb(255, 143, 218);
+    margin-left: 3px;
+  }
+  
+  .timesss3
+  {
+    background-color: rgb(255, 143, 218);
+    margin-left: 3px;
+  }
+  .timesss4
+  {
+      background-image: url(AM_svg.png);
+  }
+
+  #dayornight
+  {
+    margin-top: 20px;
+  }
+
+  .colon{
+    display: inline-block;
+    color: #3D087B;
+    z-index: 1;
+    margin-top: -60px; 
+    font-size: 30px;
+    margin-left: 4px;
+  }
+
+.time1
+{
+    background: #FFFFFF 0% 0% no-repeat padding-box;
+     border-radius: 10px;
+    opacity: 0.71;
+    width: 380px;
+    height:10px;
+    margin-left: 60px;
+    margin-top: 0px; 
+    display: inline-block;
+}
+
+.time2
+{
+    background: #FFFFFF 0% 0% no-repeat padding-box;
+     border-radius: 10px;
+    opacity: 0.23;
+    width: 330px;
+    height:17px;
+    margin-left: 25px;
+    
+}
+
+.alarm
+{
+    margin-top: 50px;
+    width: 490px;
+    height: 260px;
+    border-radius: 10px;
+    opacity: 1;
+    display: flex;
+    margin-left: 120px;
+    background-color: #FFFFFF;
+}
+
+.afternoon
+{
+    background-color: #FFFFFF;
+    border-radius: 10px;
+    opacity: 1;
+    width: 505px;
+    height: 330px;
+    margin-left: 630px;
+    margin-top: -260px;
+    padding-bottom: 100px;
+    background-image: url(lllll.jpg);
+    background-position: center;
+    background-size: 450px;
+    background-repeat: no-repeat;
+    z-index: 10;
+ 
+}
+
+.lun
+{
+  color: blueviolet;
+  font-size: 30px;
+  font-family:monospace;
+  margin-top: 10px;
+  margin-left: 15px;
+}
+
+.container {
+    padding: 0;
+    margin: 0;
+    list-style: none;
+    -ms-box-orient: horizontal;
+    display: -webkit-box;
+    display: -moz-box;
+    display: -ms-flexbox;
+    display: -moz-flex;
+    display: -webkit-flex;
+    display: flex;
+  }
+  
+  .nowrap  { 
+    -webkit-flex-wrap: nowrap;
+    flex-wrap: nowrap;
+  }
+  
+  .wrap    { 
+    -webkit-flex-wrap: wrap;
+    flex-wrap: wrap;
+  }  
+  
+  .afternoon1
+  {
+      background-color: rgb(255, 248, 248,0.23);
+      margin-left: 120px;
+      margin-top: -155px;
+      border-radius: 10px;
+      width: 490px;
+      height: 65px;
+      
+  }
+
+  .party
+  {
+    background: linear-gradient(to right, #6E54EC, #CB52F8,#FC5EFF , #FC5EFF,#CB52F8,#6E54EC );
+    margin-left: 120px;
+      margin-top: -155px;
+    border-radius: 5px;
+    width: 250px;
+    height: 50px; 
+    transition: 0.5s;
+    background-size: 200% auto;
+    color: white;
+    text-align: center;
+    font-family:Helvetica, sans-serif;
+    font-size: 21px;
+    z-index: 10;
+  }
+
+  .party:hover
+  {
+    background: linear-gradient(to left, #6E54EC,#CB52F8,#FC5EFF, #FC5EFF,#CB52F8 );
+
+  }
+
+  .pa{
+    text-align: center;
+    font-family:Helvetica, sans-serif;
+    letter-spacing: 0px;
+    color: whitesmoke; 
+    margin-left: 8px;
+    font-size: 21px;
+    margin-top: 10px;
+    z-index: 10;
+  }
+
+  .ga{
+    text-align: center;
+    font-family:Helvetica, sans-serif;
+    letter-spacing: 0px;
+    color: white;
+    margin-left: -200px;
+    font-size: 25px;
+    margin-top: 5px;
+    font-weight: bold;
+    margin-top: 23px;
+    z-index: 10;
+  }
+
+
+  .wakeupimg{
+    width: 30px;
+    height: 30px;
+    margin-top: 20px;
+    z-index: 10;
+    opacity: 1;
+    margin-left: 20px;
+  }
+
+  .line
+  {
+    border-left: 2px solid rgba(78, 4, 148, 0.993) ;
+    margin-top: 65px;
+    margin-left: -399px;
+    height: 30px;
+    display: inline-block;
+  }
+
+  .line1
+  {
+    border-left: 2px solid rgba(78, 4, 148, 0.993) ;
+    margin-top: 148px;
+    margin-left: -399px;
+    height: 30px;
+    display: inline-block;
+  }
+  .wakeup_label
+  {
+    margin-left: 30px;
+    margin-top: 28px;
+    color: rgba(78, 4, 148, 0.993)  ;
+    display: inline-block;
+    font-family: Arial, Helvetica, sans-serif;
+  }
+
+
+  .lunchtimeimg{
+    width: 30px;
+    height: 30px;
+    margin-top:110px;
+    z-index: 10;
+    opacity: 1;
+    margin-left: -17px;
+  }
+
+  .lunchtime_label
+  {
+    margin-top: 120px;
+    margin-left: 30px;
+    color: rgba(78, 4, 148, 0.993);
+    display: inline-block;
+    font-family: Arial, Helvetica, sans-serif;
+  }
+
+  .naptimeimg{
+    width: 30px;
+    height: 30px;
+    margin-top: 200px;
+    z-index: 10;
+    opacity: 1;
+    margin-left: -13px;
+  }
+
+  .naptime_label
+  {
+    margin-top: 205px;
+    margin-left: 27px;
+    color: rgba(78, 4, 148, 0.993);
+    display: inline-block;
+    font-family: Arial, Helvetica, sans-serif;
+  }
+
+  #selectedtimings
+  {
+    margin-left: -250px;
+    margin-top: -90px;
+    text-align: center;
+    color: blueviolet;
+    line-height: 42px;
+    font-family: Arial, Helvetica, sans-serif;
+    width: 350px;
+    height: 135px;
+    
+  }
+
+  #wakeuptiming
+  {
+    margin-top: 5px;
+  }
+
+  #task
+  {
+    margin-top: 20px;
+    margin-left: 20px;
+    font-size: 30px;
+    color: blueviolet;
+font-family: monospace;
+  }
+
+
