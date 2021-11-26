@@ -100,5 +100,7 @@ function settiming()
                      img.style.backgroundImage="url('./set_alarm.jpg')";
                  }
     
-    }                
+    }      
+    
+    
     
